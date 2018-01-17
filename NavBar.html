@@ -1,0 +1,74 @@
+<!DOCTYPE! html> 
+
+<html> 
+
+<head>
+
+	<title>Navigation Bar</title>
+	<meta charset="UTF-8">
+	
+	<style> .topnav {
+				background-color: #F0E68C;
+				overflow: hidden;
+			}
+
+			.topnav a {
+				float: left;
+				color: #000000;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;	
+			}
+			
+			.topnav a:hover {
+				background-color: #800000;
+				color: black
+			}
+			
+			.topnav a.active [
+				background-color: #4CAF50;
+				color: white;
+			}
+			
+			
+			
+	</style> 
+
+
+</head>
+
+
+<body>
+
+<div class="topnav">
+	<a class="active" href="#home">Blablabla</a> 
+	<a href="#FAQ">Home</a>
+	<a href="#FAQ">FAQ</a>
+	<a href="#Forum">Forum</a>
+</div><br>
+
+<form action="/action_page.php" target="_blank" method="post"> 
+	<fieldset>
+		<legend> User Information:</legend>
+		First name:<br>
+		<input type="text" name="firstname"><br>
+		Last name:<br>
+		<input type="text" name="lastname"><br>
+		E-mail Address:<br>
+		<input type="text" name="email"><br>
+		Password:<br>
+		<input type="text" name="Password"><br>
+	
+		<input type="radio" name="gender" value="Male" checked> Male<br>
+		<input type="radio" name="gender" value="Female" checked> Female<br>
+		<input type="radio" name="gender" value="Helicopter" checked> Helicopter<br>
+		<input type="submit" value="Submit">
+		<input type="reset">
+	</fieldset>
+</form>
+
+
+
+
+</body>
